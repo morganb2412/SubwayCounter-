@@ -14,6 +14,6 @@
  
 function increment() {
    count = count + 1 
-   count.innerText = count  
+   countEl.innerText = count  
 }
 
