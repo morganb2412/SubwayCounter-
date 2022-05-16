@@ -11,24 +11,22 @@ body{
 #container{
     
     background-color: yellow;
-    width: 400px;
-    height: 250px;
-    margin-top: 10px;
-    margin-left: 480px;
+    width: 50%;
+    margin: auto;
     border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    text-align: center;
-    font-weight: bolder;
-    background-size: 400px 250px;
-    
+    box-shadow: rgba(0, 0, 0, 0.466) 0px 54px 55px, rgba(0, 0, 0, 0.185) 0px -12px 30px, rgba(0, 0, 0, 0.185) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-align: center; 
+    font-weight: bolder;  
 }
+
 #containerwrapper{
     background-color: yellow;
-    margin-left: 440px;
     border-color: darkblue;
-    width: 500px;
+    width: 50%;
+    margin: auto;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
 
 #title{
     margin-top: 10px;
