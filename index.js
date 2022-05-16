@@ -13,7 +13,15 @@
  let count = 0
  
 function increment() {
-   count = count + 1 
-   countEl.innerText = count  
+   count += 1
+   countEl.textContent = count  
 }
+
+function save(){
+ let countStr = count + " - "
+saveEl.textContent += countStr
+ countEl.textContent = 0 
+}
+
+
 
